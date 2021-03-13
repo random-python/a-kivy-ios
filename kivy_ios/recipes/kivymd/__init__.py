@@ -4,8 +4,6 @@
 
 from kivy_ios.toolchain import PythonRecipe
 
-from pythonforandroid.recipe import PythonRecipe
-
 
 class KivyMD_Recipe(PythonRecipe):
 
@@ -18,8 +16,8 @@ class KivyMD_Recipe(PythonRecipe):
 
     depends = ['kivy', 'pillow']
 
-    #call_hostpython_via_targetpython = False
-    #install_in_hostpython = True
+    # call_hostpython_via_targetpython = False
+    # install_in_hostpython = True
 
 
 recipe = KivyMD_Recipe()
