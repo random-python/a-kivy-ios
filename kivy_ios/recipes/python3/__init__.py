@@ -172,7 +172,7 @@ class Python3Recipe(Recipe):
         # cleanup python libraries
         with cd(join(
                 self.ctx.dist_dir, "root", "python3", "lib", "python3.8")):
-            sh.rm("-rf", "wsgiref", "curses", "idlelib", "lib2to3",
+            sh.rm("-rf", "wsgiref-xxx", "curses", "idlelib", "lib2to3",
                   "ensurepip", "turtledemo", "lib-dynload", "venv",
                   "pydoc_data")
             sh.find(".", "-path", "*/test*/*", "-delete")
