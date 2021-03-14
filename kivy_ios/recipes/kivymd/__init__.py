@@ -11,7 +11,7 @@ class KivyMD_Recipe(PythonRecipe):
 
     site_packages_name = 'kivymd'
 
-    version = 'ba2ae62'
+    version = 'ba2ae628a2c2f25d1499c6eeaac96fbb6ff7c48a'
     url = "https://github.com/kivymd/KivyMD/archive/{version}.zip"
 
     depends = ['kivy', 'pillow']
